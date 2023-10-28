@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f0f0f0; /* Add a background color */
+}
+
+.container {
+    text-align: left; /* Adjust text alignment as needed */
+    background-color: #ffffff; /* Add a background color for the container */
+    padding: 20px; /* Add padding for spacing on the left and right */
+}
+
+.time-1 {
+    vertical-align: top;
+    margin-top: -30px;
+}
+.time-1 {
+    vertical-align: top;
+    margin-top: -50px;
+}
+
+
