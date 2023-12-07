@@ -5,17 +5,16 @@
 function numGenerator(guessedNum) {
     let num = Math.floor(Math.random() * 100 + 1);
 
-    while (true) {
-        if (!isNaN(guessedNum) && guessedNum >= 1 && guessedNum <= 100) {
-            if (guessedNum === num) {
-                return Correct! You Won!;
-            } else if (guessedNum > num) {
-                return Too High! Try again!;
-            } else {
-                return Too Low! Try again!;
-            }
+    if (!isNaN(guessedNum) && guessedNum >= 1 && guessedNum <= 100) {
+        if (guessedNum === num) {
+            return "Correct! You Won!";
+        } else if (guessedNum > num) {
+            return "Too High! Try again!";
         } else {
-            return "Please guess a number between 1 and 100.";
+            return "Too Low! Try again!";
         }
+    } else {
+        return "Please guess a number between 1 and 100.";
     }
 }
+
