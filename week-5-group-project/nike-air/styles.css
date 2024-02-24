@@ -1,0 +1,63 @@
+
+   
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    overflow: hidden; /* Hide scrollbars */
+    display: block;
+  }
+  
+  .container {
+    border-width: 10px;
+    border-style: solid;
+    height: 100vh;
+    border-image: linear-gradient(to right, red, yellow) 1;
+  } 
+  /* .header {
+    display: flex;
+    //justify-content: space-between;
+    align-items: flex-start;
+  /* } */
+  /* .header img,
+.header li,
+.header .svgs{
+  width: 50px; 
+  height: 20px;
+  display: flex;
+  display: block; Ensure images don't have extra space below */
+} */
+ul li {
+  margin-right: 100px; /* Add spacing between list items */
+}
+.nav-bar{
+si
+}
+.svgs{
+  size: 10px;
+}
+
+
+
+.nav-bar {
+  display: flex;
+  align-items: center; /* Align nav items vertically */
+  margin-left: 800px; /* Add margin between logo and nav items */
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 10px; /* Add spacing between list items */
+}
+  
